@@ -1,0 +1,7 @@
+reservation:
+  widget: select
+  label: "Reservation for class, training, workshop"
+  help: "If you don't know about specific reservation, select default."
+  options:
+    - [ "Aldridge Lab Reservation", "aldridgelabres" ]
+  id: 'reservation'

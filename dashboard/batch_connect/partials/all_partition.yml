@@ -1,0 +1,27 @@
+partition:
+  widget: "select"
+  label: "Partition"
+  help: "Jobs submitted to the `preempt` partition may be automatically killed to allow higher-priority jobs to run. Select a specific lab partition if you belong to that group."
+  options:
+    - ["batch", "batch", data-hide-gpu-type: true]
+    - ["gpu", "gpu"]
+    # - ["preempt", "preempt"]
+    # - ["largemem", "largemem", data-hide-gpu-type: true]
+    # - ["rc2", "rc2", data-hide-gpu-type: true]
+    # - ["dinglab", "dinglab"]
+    # - ["heldweinlab", "heldweinlab"]
+    # - ["hugheslab", "hugheslab"]
+    # - ["laolab", "laolab"]
+    # - ["linlab", "linlab"]
+    # - ["liulab", "liulab"]
+    # - ["llab", "llab"]
+    # - ["panettalab", "panettalab"]
+    # - ["pangolinlab", "pangolinlab", data-hide-gpu-type: true]
+    # - ["patralab", "patralab"]
+    # - ["pettilab", "pettilab"]
+    # - ["ruiguolab", "ruiguolab", data-hide-gpu-type: true]
+    # - ["shushkovlab", "shushkovlab", data-hide-gpu-type: true]
+    # - ["tuftsai", "tuftsai"]
+    # - ["vaseylab", "vaseylab", data-hide-gpu-type: true]
+    # - ["wongjiradla", "wongjiradla"]
+  value: "batch"

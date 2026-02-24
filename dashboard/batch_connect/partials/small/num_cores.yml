@@ -1,0 +1,9 @@
+num_cores:
+  widget: "select"
+  label: "Number of cores"
+  help: |
+    Number of cores.
+  options:
+    - ["1", "1"]
+    - ["2", "2"]
+  id: 'num_cores'

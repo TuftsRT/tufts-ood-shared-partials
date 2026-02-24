@@ -1,0 +1,8 @@
+hpcpartition:
+  widget: select
+  label: "Partition"
+  help: "Partition: Default - Uses the default batch partion. Preempt - Uses extra 
+contributed capacity. Your job will be canceled if contrib owner needs resources. "
+  options:
+    - [ "Default", "batch" ]
+    - [ "Preempt", "preempt" ]

@@ -1,0 +1,9 @@
+num_memory:
+  widget: "number_field"
+  label: "Amount of memory (GB)"
+  help: "Enter the memory amount in GB (e.g., `12` for 12GB or `100` for 100GB)."
+  required: true
+  pattern: "^[0-9]{1,4}$"
+  value: 4
+  min: 1
+  max: 1400

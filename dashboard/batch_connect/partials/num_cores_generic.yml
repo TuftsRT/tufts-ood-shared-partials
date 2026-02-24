@@ -1,0 +1,8 @@
+num_cores:
+  widget: "number_field"
+  label: "Number of cores"
+  value: 1
+  help: Select the number of CPU cores for your job.
+  min: 1
+  max: 64
+  step: 1

@@ -1,0 +1,20 @@
+partition:
+  widget: "select"
+  label: "GPU Partition"
+  help: "Jobs submitted to the `preempt` partition may be automatically killed to allow higher-priority jobs to run. Select a specific lab partition if you belong to that group."
+  options:
+    - ["gpu", "gpu"]
+    # - ["preempt", "preempt"]
+    # - ["dinglab", "dinglab"]
+    # - ["heldweinlab", "heldweinlab"]
+    # - ["hugheslab", "hugheslab"]
+    # - ["laolab", "laolab"]
+    # - ["linlab", "linlab"]
+    # - ["liulab", "liulab"]
+    # - ["llab", "llab"]
+    # - ["panettalab", "panettalab"]
+    # - ["patralab", "patralab"]
+    # - ["pettilab", "pettilab"]
+    # - ["tuftsai", "tuftsai"]
+    # - ["wongjiradla", "wongjiradla"]
+  value: "gpu"

@@ -1,0 +1,21 @@
+gpu_type:
+  label: "GPU architecture"
+  help: Please select one GPU architecture from the options below. If you don't have a specific preference, choose **any**.
+  widget: "select"
+  options:
+    - ["none", "none"]
+    - ["any", "any"]
+    - ["A100 - 40GB", "a100_40"]
+    - ["A100 - 80GB", "a100_80"]
+    - ["H200 - 140GB", "h200"]
+    - ["L40s - 48GB", "l40s"]
+    # - ["H100 - 80GB", "h100"]  # commented
+    # - ["L40 - 48GB", "l40"]
+    # - ["L40S - 48GB", "l40s"]
+    # - ["P100 - 16GB", "p100"]
+    # - ["RTX 6000 - 24GB", "rtx_6000"]
+    # - ["RTX 6000Ada - 48GB", "rtx_6000ada"]
+    # - ["RTX A6000 - 48GB", "rtx_a6000"]
+    # - ["T4 - 16GB", "t4"]
+    # - ["v100 - 16GB", "v100"]
+  value: "none"

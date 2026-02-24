@@ -1,0 +1,12 @@
+num_generic_gpus:
+  widget: "number_field"
+  required: true
+  pattern: "[0-4]"
+  label: "Number of GPU's"
+  help: |
+    Enter number of gpu's you would like to allocate (no minimum, max 4)
+  value: 1
+  min: 0
+  max: 4
+  id: 'num_generic_gpus'
+

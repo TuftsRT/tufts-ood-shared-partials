@@ -1,0 +1,10 @@
+reservation:
+  widget: select
+  label: "Reservation for class, training, workshop"
+  help: "If you don't know about specific reservation, select default."
+  options:
+    - [ "Default", "oodres" ]
+    - [ "Aldridge Lab Reservation", "aldridgelabres" ]
+    - [ "Chin Lab Reservation", "chinlabres" ]
+    - [ "CTS0599 Reservation", "cts0599res" ]
+  id: 'reservation'

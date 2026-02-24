@@ -1,0 +1,8 @@
+os:
+  widget: select
+  label: "Operating System (OS)"
+  help: "OS: R 3.5.0 or R/3.5.0 use RHEL 6. R 4.0 use RHEL 7"
+  options:
+    - [ "RHEL 6", "rhel6" ]
+    - [ "RHEL 7", "rhel7" ]
+  id: 'os'

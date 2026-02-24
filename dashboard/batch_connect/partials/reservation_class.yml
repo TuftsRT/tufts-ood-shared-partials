@@ -1,0 +1,10 @@
+reservation:
+  widget: select
+  label: "Reservation"
+  help: "If you are working on homework or projects outside of class time, please select Default."
+  options:
+    - [ "Default", "oodres" ]
+    - [ "DSS", "dssres2025_s1,dssres2025_s2,dssres2025_temp_s2" ]
+    - [ "ECS62", "ecs62" ]
+    - [ "CTS0599", "cts0599res" ]
+id: 'reservation'

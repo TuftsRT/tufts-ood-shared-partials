@@ -1,0 +1,8 @@
+num_memory:
+  widget: "select"
+  label: "Amount of memory"
+  help: |
+    Amount of memory (in GB).
+  options:
+    - ["4GB", "4000"]
+  id: 'num_memory'
