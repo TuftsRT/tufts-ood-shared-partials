@@ -1,6 +1,3 @@
 #### AI Usage Disclaimer:
 
-AI-generated content may be incorrect, biased, incomplete, or misleading.
-Always review, verify, and edit AI output before use.
-Do not input **confidential** or **sensitive** information.
-For requirements and best practices, please refer to  [Tufts’ Guidelines for Use of Generative AI Tools](https://it.tufts.edu/guidelines-use-generative-ai-tools)
+AI-generated content may be incorrect, biased, incomplete, or misleading. Always review, verify, and edit AI output before use. Before uploading data to any AI tool, please review the [Tufts Information Classification and Handling Policy](https://it.tufts.edu/sites/default/files/uploaded-files/2018-09/information-classification-handling_2018-06-18_0.pdf) and the [Data Storage Finder](https://access.tufts.edu/data-finder). Do not enter any restricted data into the tool without formal TTS review. For requirements and best practices, please refer to Tufts’ [Guidelines for Use of Generative AI Tools](https://it.tufts.edu/guidelines-use-generative-ai-tools).
